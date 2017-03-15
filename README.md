@@ -72,7 +72,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>GET</td>
-    <td>/api/v1/menus.json</td>
+    <td>/v1/menus.json</td>
     <td></td>
     <td>
       <pre>
@@ -97,7 +97,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>GET</td>
-    <td>/api/v1/menus/{menu_id}.json</td>
+    <td>/v1/menus/{menu_id}.json</td>
     <td></td>
     <td>
       <pre>
@@ -120,7 +120,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>POST</td>
-    <td>/api/v1/menus.json</td>
+    <td>/v1/menus.json</td>
     <td>
       <pre>
 {
@@ -149,7 +149,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>PUT</td>
-    <td>/api/v1/menus/{menu_id}.json</td>
+    <td>/v1/menus/{menu_id}.json</td>
     <td>
       <pre>
 {
@@ -177,7 +177,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>DELETE</td>
-    <td>/api/v1/menus/{menu_id}.json</td>
+    <td>/v1/menus/{menu_id}.json</td>
     <td></td>
     <td></td>
   </tr>
@@ -193,7 +193,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>POST</td>
-    <td>/api/v1/menus/{menu_id}/recipes.json</td>
+    <td>/v1/menus/{menu_id}/recipes.json</td>
     <td>
     <pre>
 {
@@ -215,7 +215,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>DELETE</td>
-    <td>/api/v1/menus/{menu_id}/recipes/{recipe_id}.json</td>
+    <td>/v1/menus/{menu_id}/recipes/{recipe_id}.json</td>
     <td>
     </td>
     <td></td>
@@ -239,7 +239,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>GET</td>
-    <td>/api/v1/recipes.json</td>
+    <td>/v1/recipes.json</td>
     <td></td>
     <td>
       <pre>
@@ -265,7 +265,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>GET</td>
-    <td>/api/v1/recipes/{recipe_id}.json</td>
+    <td>/v1/recipes/{recipe_id}.json</td>
     <td></td>
     <td>
       <pre>
@@ -289,7 +289,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>POST</td>
-    <td>/api/v1/recipes.json</td>
+    <td>/v1/recipes.json</td>
     <td>
       <pre>
 {
@@ -320,7 +320,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>PUT</td>
-    <td>/api/v1/recipes/{recipe_id}.json</td>
+    <td>/v1/recipes/{recipe_id}.json</td>
     <td>
       <pre>
 {
@@ -350,7 +350,7 @@ Each follows standard CRUD conventions:
   </tr>
   <tr>
     <td>DELETE</td>
-    <td>/api/v1/recipes/{recipe_id}.json</td>
+    <td>/v1/recipes/{recipe_id}.json</td>
     <td></td>
     <td></td>
   </tr>
