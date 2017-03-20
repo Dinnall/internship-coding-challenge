@@ -41,7 +41,7 @@ module Api::V1
 
     private
       def set_recipe
-        @recipe = Recipe.where(restaurant: @current_restaurant, id: params[:id])
+        @recipe = Recipe.find_by(restaurant: @current_restaurant, id: params[:id])
       end
 
       def recipe_params

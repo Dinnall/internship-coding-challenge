@@ -44,7 +44,7 @@ module Api::V1
     private
       # Use callbacks to share common setup or constraints between actions.
       def set_menu
-        @menu = Menu.where(restaurant: @current_restaurant, id: params[:id])
+        @menu = Menu.find_by(restaurant: @current_restaurant, id: params[:id])
       end
 
       # Only allow a trusted parameter "white list" through.

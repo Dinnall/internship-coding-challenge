@@ -183,6 +183,30 @@ Each follows standard CRUD conventions:
   </tr>
 </table>
 
+#### List all `Recipes` on a current `Menu`
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Path</th>
+    <th>Parameters</th>
+    <th>Returns</th>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>/v1/menus/{menu_id}/recipes.json</td>
+    <td>
+    <pre>
+[
+  {
+    recipe_id: integer
+  }
+]
+    </pre>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
 #### Add a `Recipe` to a `Menu`
 <table>
   <tr>
